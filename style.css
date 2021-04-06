@@ -22,3 +22,16 @@ p {
     margin-right: 50px;
     font-size: 20px;
 }
+
+.hero{
+    width: 80%
+    height: 450px;
+    position: relative;
+    margin: 100px auto;
+    overflow: hidden;
+
+}
+
+#About Me{
+    transform: translateX(0px)
+}
