@@ -26,7 +26,18 @@ a.hover {
     color: rgb(252, 141, 219);
 }
 
-ul {
+a {
+    background-color: white;
+    color: rgb(48, 66, 255);
+    font-style: Helvetica;
+    padding: 15px;
+    font-size: 30px;
+    font-weight: bold;
+    outline-color: rgb(210, 210, 252);
+    text-decoration: none;
+}
+
+li {
     font-family: Helvetica;
     text-align: left;
     font-size: 20px;
@@ -43,13 +54,5 @@ p {
 
 .nav_bar {
     text-align: center;
-    background-color: white;
-    color: rgb(48, 66, 255);
-    font-style: Helvetica;
-    padding: 15px;
-    font-size: 30px;
-    font-weight: bold;
-    outline-color: rgb(210, 210, 252);
-    text-decoration: none;
 }
 
