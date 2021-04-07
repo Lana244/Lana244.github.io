@@ -3,7 +3,8 @@ body {
     background-color: rgb(159, 161, 252);
 }
 h {
-    font-family: Brush Script MT;
+    font-family: "Brush Script MT";
+    text-align: center;
 }
 .content {
     align-items: center;
@@ -32,9 +33,8 @@ p {
 .hero{
     width: 80%
     height: 450px;
-    position: relative;
     margin: 100px auto;
-    overflow: hidden;
+
 
 }
 
