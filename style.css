@@ -9,6 +9,7 @@ h {
     align-items: center;
     margin: 10% auto;
     position: absolute;
+    transform: translateX(0);
 }
 p {
     font-family: Helvetica;
@@ -37,6 +38,6 @@ p {
 
 }
 
-#About Me{
+#content1{
     transform: translateX(0px)
 }

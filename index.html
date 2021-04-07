@@ -6,83 +6,88 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h1>
-    Lana Parke-Reimer
-    <img src="IMG_5030.PNG">
-</h1>
-    <div class="hero">
-        <div class="btn-box">
-            <button>About Me</button>
-            <button>Languages</button>
-            <button>Skills</button>
-            <button>YouTube</button>
-        </div>
-    </div>
-
-        <div id="content1" class="content">
-            <h2>About Me</h2>
-            <p>Hello, thank you for visiting my site!
-            I am a Spanish and Cognitive Science major
-            with a minor in Linguistics at Occidental College.
-            I am currently taking computer science to gain experience in coding.
-            </p>
+    <h1>
+        Lana Parke-Reimer
+        <img src="IMG_5030.PNG">
+    </h1>
+        <div class="hero">
+            <div class="btn-box">
+                <button id ="btn1">About Me</button>
+                <button id ="btn2">Languages</button>
+                <button id ="btn3">Skills</button>
+                <button id="btn4">YouTube</button>
+            </div>
         </div>
 
-        <div id="content2" class="content">
-            <h2>Languages</h2>
-            <p>
-            I am very interested in language learning and teaching.
-            I have studied Spanish for 9 years and now am fluent in it.
-            I have been studying Korean for a year and am now at an intermediate level.
-            </p>
-        </div>
+            <div id="content1" class="content">
+                <h2>About Me</h2>
+                <p>Hello, thank you for visiting my site!
+                I am a Spanish and Cognitive Science major
+                with a minor in Linguistics at Occidental College.
+                I am currently taking computer science to gain experience in coding.
+                </p>
+            </div>
 
-        <div id="content3" class="content">
-            <h2>Skills</h2>
-            <p>
-            Experience working with Python, Java, HTML and CSS
-            Experience with software such as Praat, MatLab and Excel
-            </p>
+            <div id="content2" class="content">
+                <h2>Languages</h2>
+                <p>
+                I am very interested in language learning and teaching.
+                I have studied Spanish for 9 years and now am fluent in it.
+                I have been studying Korean for a year and am now at an intermediate level.
+                </p>
+            </div>
 
-        </div>
+            <div id="content3" class="content">
+                <h2>Skills</h2>
+                <p>
+                Experience working with Python, Java, HTML and CSS
+                Experience with software such as Praat, MatLab and Excel
+                </p>
 
-        <div id="content4" class="content">
-            <h2>YouTube</h2>
+            </div>
 
-        </div>
+            <div id="content4" class="content">
+                <h2>YouTube</h2>
+                <a href="https://www.youtube.com/watch?v=v6-4wh_o9iM" target="blank">Google</a>
 
-<script>
-        var content1 = document.getElementById("content1);
-        var content2 = document.getElementById("content2);
-        var content3 = document.getElementById("content3);
-        var content4 = document.getElementById("content4);
-        var btn1 = document.getElementById("btn1");
-        var btn2 = document.getElementById("btn2");
-        var btn3 = document.getElementById("btn3");
-        var btn4 = document.getElementById("btn4");
+            </div>
 
-        functionHTML(){
-            content1.style.transform = "translateX(0)";
-            content2.style.transform = "translateX(100%)";
-            content3.style.transform = "translateX(100%)";
-        }
-        function openLanguages(){
-            content1.style.transform = "translateX(100%)";
-            content2.style.transform = "translateX(0)";
-            content3.style.transform = "translateX(100%)";
-        }
-        function openSkills(){
-            content1.style.transform = "translateX(100%)";
-            content2.style.transform = "translateX(100%)";
-            content3.style.transform = "translateX(0)";
-        }
-        function openYouTube(){
-            content1.style.transform = "translateX(100%)";
-            content2.style.transform = "translateX(100%)";
-            content3.style.transform = "translateX(0)";
-        }
+        <script>
+            var content1 = document.getElementById("content1);
+            var content2 = document.getElementById("content2);
+            var content3 = document.getElementById("content3);
+            var content4 = document.getElementById("content4);
+            var btn1 = document.getElementById("btn1");
+            var btn2 = document.getElementById("btn2");
+            var btn3 = document.getElementById("btn3");
+            var btn4 = document.getElementById("btn4");
 
-</script>
+            function openAbout Me(){
+                content1.style.transform = "translateX(0)";
+                content2.style.transform = "translateX(100%)";
+                content3.style.transform = "translateX(100%)";
+                content4.style.transform = "translateX(100%)";
+            }
+            function openLanguages(){
+                content1.style.transform = "translateX(100%)";
+                content2.style.transform = "translateX(0)";
+                content3.style.transform = "translateX(100%)";
+                content4.style.transform = "translateX(100%)";
+            }
+            function openSkills(){
+                content1.style.transform = "translateX(100%)";
+                content2.style.transform = "translateX(100%)";
+                content3.style.transform = "translateX(0)";
+                content4.style.transform = "translateX(100%)";
+            }
+            function openYouTube(){
+                content1.style.transform = "translateX(100%)";
+                content2.style.transform = "translateX(100%)";
+                content3.style.transform = "translateX(100%)";
+                content4.style.transform = "translateX(0)";
+            }
+
+        </script>
 
 </body>
 </html>
