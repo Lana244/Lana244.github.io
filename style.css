@@ -2,14 +2,23 @@ body {
     margin-top: 50px;
     background-color: rgb(159, 161, 252);
 }
-h {
+h1 {
     font-family: Helvetica;
     font-style: italic;
     font-weight: 900;
     text-align: center;
 }
 a {
-    background-color: 
+    background-color: white;
+    text-color: rgb(48, 66, 255);
+    padding: 15px;
+    font-size: 30px;
+    font-weight: bold;
+    outline-color: rgb(210, 210, 252);
+}
+a.hover {
+    background-color: rgb(48, 66, 255);
+    text-color: rgb(252, 141, 219);
 }
 p {
     font-family: Helvetica;
@@ -19,28 +28,4 @@ p {
     margin-bottom: 200px;
     margin-left: 200px;
 }
-.btn-box{
-    display: flex;
-    border-bottom: 1px solid #ccc;
-}
-.btn-box button{
-    background: transparent;
-    border: none;
-    outline: none;
-    padding: 15px;
-    margin-right: 50px;
-    font-size: 30px;
-    font-weight: bold;
-}
 
-.hero{
-    width: 80%
-    height: 450px;
-    margin: 100px auto;
-
-
-}
-
-#content1{
-    transform: translateX(0px)
-}
