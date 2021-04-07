@@ -60,10 +60,10 @@ p {
     font-family: Helvetica;
     font-size: 20px;
 }
-.flags {
+.flags img{
     margin-left: 200px;
     margin-right: 200px;
-    text-align: left;
+    image-align: left;
     width: 350px;
 
 }
