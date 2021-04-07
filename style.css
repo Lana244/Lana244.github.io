@@ -31,7 +31,7 @@ a {
     color: rgb(48, 66, 255);
     font-style: Helvetica;
     padding: 15px;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
     outline-color: rgb(210, 210, 252);
     text-decoration: none;
@@ -43,6 +43,9 @@ li {
     font-size: 20px;
     background-color: white;
     padding: 15px;
+}
+ul {
+    list-style-position: inside;
 }
 p {
     font-family: Helvetica;
