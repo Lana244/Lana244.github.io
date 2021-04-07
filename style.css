@@ -8,6 +8,7 @@ h {
 .content {
     align-items: center;
     margin: 10% auto;
+    position: absolute;
 }
 p {
     font-family: Helvetica;
