@@ -19,7 +19,7 @@
         </div>
     </div>
 
-        <div id="About Me" class="content">
+        <div id="content1" class="content">
             <h2>About Me</h2>
             <p>Hello, thank you for visiting my site!
             I am a Spanish and Cognitive Science major
@@ -28,7 +28,7 @@
             </p>
         </div>
 
-        <div id="Languages" class="content">
+        <div id="content2" class="content">
             <h2>Languages</h2>
             <p>
             I am very interested in language learning and teaching.
@@ -37,7 +37,7 @@
             </p>
         </div>
 
-        <div id="Skills" class="content">
+        <div id="content3" class="content">
             <h2>Skills</h2>
             <p>
             Experience working with Python, Java, HTML and CSS
@@ -46,7 +46,8 @@
 
         </div>
 
-        <div id="Youtube" class="content">
+        <div id="content4" class="content">
+            <h2>YouTube</h2>
 
         </div>
 
@@ -54,11 +55,13 @@
         var content1 = document.getElementById("content1);
         var content2 = document.getElementById("content2);
         var content3 = document.getElementById("content3);
+        var content4 = document.getElementById("content4);
         var btn1 = document.getElementById("btn1");
         var btn2 = document.getElementById("btn2");
         var btn3 = document.getElementById("btn3");
+        var btn4 = document.getElementById("btn4");
 
-        function openAbout Me(){
+        functionHTML(){
             content1.style.transform = "translateX(0)";
             content2.style.transform = "translateX(100%)";
             content3.style.transform = "translateX(100%)";
@@ -73,7 +76,11 @@
             content2.style.transform = "translateX(100%)";
             content3.style.transform = "translateX(0)";
         }
-
+        function openYouTube(){
+            content1.style.transform = "translateX(100%)";
+            content2.style.transform = "translateX(100%)";
+            content3.style.transform = "translateX(0)";
+        }
 
 </script>
 
