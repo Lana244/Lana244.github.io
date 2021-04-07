@@ -3,18 +3,21 @@ body {
     background-color: rgb(159, 161, 252);
 }
 h {
-    font-family: "Brush Script MT";
+    font-family: Helvetica;
+    font-style: italic;
+    font-weight: 900;
     text-align: center;
 }
-.content {
-    align-items: center;
-    margin: 10% auto;
-    position: absolute;
-    transform: translateX(0);
+a {
+    background-color: 
 }
 p {
     font-family: Helvetica;
     text-align: left;
+    margin-top: 100px;
+    margin-right: 100px;
+    margin-bottom: 200px;
+    margin-left: 200px;
 }
 .btn-box{
     display: flex;
